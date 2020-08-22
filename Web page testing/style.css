@@ -1,0 +1,84 @@
+body{
+    background-color: lavender;
+}
+
+h1{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 42px;
+    width: 220px;
+    border-bottom: 2px solid purple;
+    text-align: center;
+    text-shadow: 2px 2px 1px blue;
+    box-shadow: 4px 4px 10px black;
+}
+
+.head1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 18px;
+    width: 620px;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 28px;
+    width: 370px;
+    border-bottom: 5px solid purple;
+    text-align: center;
+    text-shadow: 1px 1px 1px blue;
+}
+
+.head2, .moving{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.border{
+    border: 5px solid darkmagenta;
+    border-radius: 2px;
+}
+
+.head5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 800px;
+}
+
+.photo{
+    box-shadow: 1px 1px 1px black;
+}
+
+.photo:hover{
+    transition: all 1s;
+    transform: scale(1.5);
+}
+
+img{
+    width: 140px;
+    height: 100px;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 500px;
+    flex-direction: row;
+    padding: 5px 10px;
+}

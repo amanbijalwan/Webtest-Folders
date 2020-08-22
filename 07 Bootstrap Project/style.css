@@ -1,0 +1,11 @@
+.btn-secondary{
+    background-color: purple;
+}
+.btn-secondaryy:hover{
+    background-color: black;
+}
+
+.col{
+    background-color: orange;
+    border: 2px solid brown;
+}

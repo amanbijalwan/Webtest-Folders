@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>
+        Register
+    </title>
+</head>
+<body>
+    <h3>Registration Page.</h3><br>
+    <form method="GET">
+        <!--POST method for sending directly to server, GET to show in url... -->
+
+        First Name : <input type="text" name="firstname"><br>
+        Last Name  : <input type="text" name="lastname"><br>
+        Gender : <br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Others">Other<br>
+        Superpowers : <br>
+            <input type="checkbox" name="flight">Flight<br>
+            <input type="checkbox" name="superstrength">Super Strength<br>
+            <input type="checkbox" name="magicspells">Magic Spells<br>
+        Car Manufacturer : <br>
+        <select>
+            <option value="Tata" name="Tata">TATA</option>
+            <option value="Mahindra" name="Mahindra">Mahindra</option>
+            <option value="Honda" name="Honda">Honda</option>
+            <option value="Suzuki" name="Suzuki">Suzuki</option>
+            <option value="hyundai" name="hyundai">Hyundai</option>
+            <option value="Others" name="Others">Others</option>
+        </select><br>
+
+        e-mail : <input type="email" required name="email"><br>
+        password : <input type="password" min="5" name="password"><br>
+        Birthday : <input type="date" name="birthday"><br>
+        <input type="submit" value="Register Now!">
+        <input type="reset" value="Reset fields">
+    </form>
+<hr>
+<a href="index.html">Return to Main Page.</a>
+
+</body>
+
+</html>
+
+<!--Sample Dataset
+
+    NUMBER 1
+    ?firstname=Alpha
+    &lastname=
+    &gender=Male
+    &flight=on
+    &email=Gamma%40gama.gama
+    &password=qwerty
+    &birthday=2000-01-01
+
+    NUMBER2
+    ?firstname=Beta
+    &lastname=
+    &gender=Male
+    &superstrength=on
+    &magicspells=on
+    &email=Gamma%40gama.gama
+    &password=q1q1w2
+    &birthday=2020-07-08
+-->

@@ -1,0 +1,41 @@
+h2 {
+    color: slateblue;
+}
+
+.boxmodel {
+    border: 5px solid red;
+
+    /* display: inline-block; for making all in same line  */
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+
+    /*margin for space outside boxes* top-right-bottom-left order or 2-topbottom-leftright*/
+    margin: 0px 20px;
+
+    /*width and height too*/
+    width: 20px;
+    height: 50px;
+}
+
+.boxmodel:hover{
+    border: 6px solid blue;
+
+    /* display: inline-block; for making all in same line  */
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+
+    /*margin for space outside boxes* top-right-bottom-left order or 2-topbottom-leftright*/
+    margin: 0px 20px;
+
+    /*width and height too*/
+    width: 20px;
+    height: 50px;
+}
+
+p {
+    font-size: 24px;
+}
+
+span {
+    font-size: 2em;
+}
