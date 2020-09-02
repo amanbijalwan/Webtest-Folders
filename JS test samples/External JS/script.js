@@ -18,6 +18,14 @@ var newsfeed = [
 	{
 		username : "Sumit",
 		timeline : "Will work hard next time."
+	},
+	{
+		username : "Moha",
+		timeline : "Will work harder next time."
+	},
+	{
+		username : "Tao",
+		timeline : "Might work harder next time."
 	}
 ];
 
